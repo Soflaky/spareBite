@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpareBite - Food Donation System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<!-- this is where the page content starts -->
+<!-- the onload="welcomeUser()" runs a function when the page loads -->
+<body onload="welcomeUser()">
+  <!-- this is the top navigation bar that stays at the top -->
+  <header>
+    <div class="header-content">
+      <!-- logo and site name section -->
+      <div class="logo-container">
+        <img src="spareBiteLogo.png" alt="SpareBite Logo" class="logo">
+        <h1 class="brand">SpareBite</h1>
+      </div>
+      <!-- navigation links on the right side of header -->
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="login.php">Login</a>
+        <a href="register.php">Register</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- main content area where all the important stuff goes -->
+  <main>
+    <!-- hero section - this is the big intro part at the top -->
+    <section class="about-hero">
+      <div class="about-container">
+        <!-- left side with the big logo -->
+        <div class="about-logo">
+          <img src="spareBiteLogo.png" alt="SpareBite Logo" class="hero-logo">
+          <h1 class="hero-brand">SpareBite</h1>
+        </div>
+        <!-- right side with the description text -->
+        <div class="about-content">
+          <h2>About SpareBite</h2>
+          <!-- main description paragraph -->
+          <p class="intro-text">We are a food donation platform based in Johor Bahru, Malaysia, dedicated to reducing food waste while helping our local community.</p>
+          <!-- detailed explanation of what we do -->
+          <p class="description">Our mission is to connect generous food donors with those in need, creating a sustainable cycle of sharing that benefits everyone. Whether you're a restaurant with surplus meals, a grocery store with unsold items, or an individual with extra food, SpareBite makes it easy to share and make a difference.</p>
+          <!-- location badge to show where we operate -->
+          <div class="location-info">
+            <span class="location-tag">📍 Johor Bahru, Malaysia</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- features section - explains how the system works -->
+    <section class="features-section" id="features">
+      <div class="features-container">
+        <h3>How SpareBite Works</h3>
+        <!-- three cards showing the main features -->
+        <div class="features-grid">
+          <!-- card 1: for people who want to donate food -->
+          <div class="feature-card">
+            <h4>🍽️ Donate Food</h4>
+            <p>Restaurants and individuals can easily post surplus food donations with details about quantity, location, and pickup times.</p>
+          </div>
+          <!-- card 2: for people who need food -->
+          <div class="feature-card">
+            <h4>🏠 Find Food</h4>
+            <p>Recipients can browse available donations in their area and coordinate pickups with local food donors.</p>
+          </div>
+          <!-- card 3: environmental benefit -->
+          <div class="feature-card">
+            <h4>🌱 Reduce Waste</h4>
+            <p>Together we're building a sustainable community that reduces food waste and helps those in need across Johor Bahru.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- call to action section - encourages users to sign up -->
+    <section class="cta-section">
+      <div class="cta-content">
+        <h3>Join Our Community Today</h3>
+        <p>Start making a difference in Johor Bahru - donate food or find meals in your area</p>
+        <!-- buttons to get started -->
+        <div class="cta-buttons">
+          <a href="register.php" class="btn-primary">Get Started</a>
+          <a href="login.php" class="btn-secondary">Login</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer at the bottom of the page -->
+  <footer>
+    <p>&copy; 2025 SpareBite - Reducing food waste, one donation at a time!</p>
+  </footer>
+
+  <!-- includes the javascript file for interactive features -->
+  <script src="script.js"></script>
+</body>
+</html>
